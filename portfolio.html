@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <!-- Title and Meta tags -->
+    <meta charset="utf-8">
+  <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- CSS Links -->
+  <link rel="stylesheet" href="styles/port.css">
+  <link rel="stylesheet" href="Flexsider/flexslider.css" type="text/css">
+  <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+  
+</head>
+
+<body data-spy="scroll" data-target="#main-nav" data-offset="200">
+
+<div id="parallax-bg-3" class="parallax-bg">
+		
+    <!-- Nav BAR -->
+    <div id="main-nav" class="navbar navbar-default navbar-inverse navbar-fixed-top">
+            <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                    <a class="navbar-brand" href="#"> My Portfolio </a>
+                </div> 
+                <div id="site-nav" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#home" class="scrollto"> Home </a></li>              
+                        <li><a href="#about" class="scrollto"> About Me </a></li>
+                        <li><a href="#skills" class="scrollto"> Skills </a></li>             
+                        <li><a href="#contact" class="scrollto"> Contact </a></li>
+                    </ul>                                      
+                </div>
+               </div>
+        </div> <!-- End of Nav Bar -->
+
+        <!-- HOME Section -->
+        <header id="home" class="header">
+            <div class="text-vertical-center">
+                <h1> Welcome to my Portfolio </h1>
+                 <p> You can view all my recent work here </p>
+                 <br>
+                 <a href="#about" class="btn btn-dark btn-lg"> Find Out More </a>
+            </div>
+        </header>
+        
+
+        <!-- About Page -->
+        <section id="about">		
+			<div class="container">			
+				<div class="row">
+					<div class="col-sm-4">
+						<img class="img-responsive img-circle img-center" src="image/me.JPG" alt="">
+					</div>
+					<div class="col-sm-6 ">
+						<h1>Hello, I am Prerna Anchan...</h1>
+						<p>I'm a Full stack Web Developer living in San Francisco, California. I recently completed my Master's Degree in the field of Computer Science. As a recent graduate, I am eager to build a long-term career in the field of web development. I have projects that I have been working on and ideas that I will hopefully be able to start in the near future.
+                        With a strong technical skill-set and 2+ years of experience, I want to work as a front-end web developer where I could create digital magic and elevate user experience to the next level.</p>
+                       <a href="#skills" class="btn btn-success">View my Skills</a> 
+					</div>
+				</div><!--End row -->				
+			</div><!--End container -->			
+		</section><!--End about section -->
+
+<!-- SKILLS Section -->
+<section id="skills">
+    <div class="container">
+        <div class="page-header">
+            <h1> My Technical Skills </h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <h3> Skill Set </h3>
+                <form action="form-horizontal" role="form"></form>
+            </div>
+            <div class="col-sm-8">
+                <div>
+                    <h3> Progress </h3>
+                    <div id="chart1"></div>
+                </div>
+            </div>
+          </div>
+        </div>
+</section>
+
+
+<!-- Footer section -->
+        <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h3><strong>Prerna Anchan</strong>
+                    </h3>
+                    <p>4772 Cabello St
+                        <br>Union City, CA 94587</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone" aria-hidden="true"></i> (714) 873-3248</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:prerna.anchan@gmail.com">prerna.anchan@gmail.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-github fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; My Portfolio 2017</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+</div>
+        <!-- SCRIPTS -->
+        <!-- Jquery -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+   <!--JS-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="Fexsider/jquery.flexslider.js"></script>
+        <script src="js/script.js"></script>      
+</body>
+</html>

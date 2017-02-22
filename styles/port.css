@@ -1,0 +1,146 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+}
+#main-nav li{
+    background:transparent;
+    margin:0 10px;
+    border:2px solid transparent;
+}
+div#parallax-bg-1{
+	position: fixed;
+	width: 1200px;
+	top: 0;
+	left: 50%; 
+	margin-left: -600px; 
+	z-index: 1;
+}
+#main-nav .nav a,
+#main-nav .nav a:active,
+#main-nav .nav a:hover{
+    padding:0px 10px;
+    font-size:18px;
+    line-height:54px;
+    font-weight:400;
+    background:transparent;
+    color:#fff;
+}
+
+
+#main-nav .nav a:before {
+	position: absolute;
+	bottom:-5px;
+	left: 50%;
+	color: transparent;
+	content: '•';
+	text-shadow: 0 0 transparent;
+	font-size: 16px;
+	line-height:21px;
+	-webkit-transition: text-shadow 0.3s, color 0.3s;
+	-moz-transition: text-shadow 0.3s, color 0.3s;
+	transition: text-shadow 0.3s, color 0.3s;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	transform: translateX(-50%);
+	pointer-events: none;
+}
+#main-nav .nav a:hover:before,
+#main-nav .nav li.active a:before {
+	color: #fff;
+	text-shadow: 12px 0 #fff, -12px 0 #fff;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color:snow;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+    font-weight: 700;
+}
+/* Custom Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(255,0,0,0.7);
+}
+.header {
+    display: table;
+    position: relative;
+    width: 110%;
+    height: 120%;
+    padding: 270px;
+    background: url(../image/golden.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+section{
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 120%;
+}
+#about{
+    padding:130px;
+}
+#about h1{
+    font-family: 'Lobster', cursive;
+    padding: 10px;
+}
+#about p{
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+#about img{
+    padding-top: 30px;
+}
+#about .btn-success {
+    font-size:18px;
+    text-decoration:none;
+}
+.page-header{
+    padding: 5px;
+    text-align: center;
+}
+#skills{    
+    width: 100%;
+    height: 120%;
+   padding-bottom: 10px;
+    background: url(../image/bg.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+#skills .row{
+    padding-top: 0px;
+}
+#skills h3{
+    font-weight: bold;
+    color:saddlebrown;
+}
+footer{
+     background: url(../image/light.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    
+}
